@@ -1,0 +1,49 @@
+html {
+    background-color: rgb(202, 207, 210);
+}
+
+h1 {
+    color: rgb(3, 3, 110);
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+header {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.678), rgb(77, 148, 240));
+    height: 100px;
+}
+
+nav {
+    float: right;
+    margin-right: 10%;
+    margin-top: -75px;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: rgb(121, 248, 159);
+    width: 150px;
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+div {
+    margin-left: 1000px;
+}
+
+iframe {
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 60px;
+}
+
+#mando {
+    margin-left: 630px;
+    margin-top: -40px;
+}
