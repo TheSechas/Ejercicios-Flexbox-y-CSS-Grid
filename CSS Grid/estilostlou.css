@@ -1,29 +1,23 @@
 html {
-    background-color: rgb(202, 207, 210);
+    background-color: rgb(255, 255, 255);
 }
 
 h1 {
-    color: rgb(3, 3, 110);
-    margin-top: 0px;
-    margin-left: 20px;
+    color: rgb(194, 74, 38);
 }
 
 header {
-    background-image: radial-gradient(rgba(255, 255, 255, 0.678), rgb(77, 148, 240));
-    height: 100px;
+    background-image: radial-gradient(rgba(43, 255, 0, 0.678), rgb(1, 87, 23));
 }
 
-
-nav {
-    float: right;
-    margin-right: 10%;
-    margin-top: -75px;
+h2{
+    text-align: center;
 }
 
 nav ul li {
     display: inline-block;
-    background-color: rgb(121, 248, 159);
-    width: 150px;
+    background-color: rgb(245, 229, 11);
+    width: 100px;
     text-align: center;
 }
 
@@ -35,21 +29,60 @@ h3 {
     margin-left: 1000px;
 }
 
-img {
-    margin-left: 1000px;
-    margin-top: -1000px;
-}
-
 form {
-margin-left: 500px;
-margin-top: 25px;
+    margin-left: 500px;
+    margin-top: 25px;
 }
 
 h2 {
     margin-left: 20px;
 }
 
-#mando {
-    margin-left: 630px;
-    margin-top: -40px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: -10px;
+}
+
+.grid-foto {
+    display: flex;
+    margin-top: -380px;
+    margin-left: 1250px;
+}
+
+.grid-from {
+    margin-top: 40px;
+    margin-right: 400px;
+}
+
+.grid-h3 {
+    margin-top: 10px;
+    margin-left: 1550px;
+    width: 100px;
+}
+
+@media screen and (max-width:1920px) {
+    body{
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    body{
+        background-color: rgb(149, 228, 238);
+    }
+}
+
+@media screen and (max-width:800px) {
+    body{
+        background-color: rgb(240, 241, 177);
+    }
+}
+
+@media screen and (max-width:480px) {
+    body{
+        background-color: rgb(188, 228, 170);
+    }
 }
